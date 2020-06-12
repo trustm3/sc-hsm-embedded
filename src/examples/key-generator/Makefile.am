@@ -1,7 +1,7 @@
 MAINTAINERCLEANFILES = $(srcdir)/Makefile.in
 
 if ENABLE_CTAPI
-noinst_PROGRAMS = key-generator
+bin_PROGRAMS = key-generator
 
 lib_LTLIBRARIES = libcardservice.la
 include_HEADERS = sc-hsm-cardservice.h
